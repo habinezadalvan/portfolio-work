@@ -1,78 +1,195 @@
 body{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
+	user-select: none;
 }
 
-.dropdown{
-	padding-top: 20px;
-}
-
-#home{
-
-	background: url(images/kcc.jpg);
-	color:black;
-	height: 500px;
+#home {
+	background: url(images/snowhome.jpg) no-repeat;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
 	width: 100%;
-	font-family: Sans-serif;
-	font-size: 18px;
+	height: 450px;
+}
+
+.image img{
+	border-radius: 100%;
 	
 }
 
-
-#home h1{
-	color: white;
-	font-size: 50px;
-	font-family: sans-serif;
-	text-align: center;
-	padding-top: 30px;
+.image img:hover {
+	box-shadow: 0 0 5px 1px rgba(17, 25, 27, 0.5);
+  }
 
 
-}
-
-
-.menu {
-	width: 100%;
+#lh {
 	background: #142b47;
-	overflow: hidden;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	opacity: .5;
+	
+	
 }
-.menu ul {
-	margin: 0;
-	padding: 0;
+
+.Menu {
+	height: 80px;
+	background: black;
+	opacity: .5;
+
+}
+
+.Menu ul{
+	margin: 0px;
+	padding: 10px;
 	list-style: none;
 	line-height: 60px;
 }
 
-.menu li {
+.Menu ul li{
 	float: left;
-}
-
-.menu ul a {
-	background: #142b47;
-	text-decoration: none;
-	width: 130px;
-	display: block;
+	width: 170px;
+	height: 40px;
 	text-align: center;
-	color: #f2f2f2;
-	font-size: 18px;
+	background-color: black;
+	opacity: .8;
 	font-family: sans-serif;
-	letter-spacing: 0.5px;
-}
-
-.menu li a:hover{
-color: #fff;
-opacity: 0.5;
-font-size: 20px;
+	color: white;
+	font-size: 20px;
+	font-weight: 900;
 
 }
 
-.search-form {
-	margin-top: 15px;
+
+.Menu ul li a {
+	
+	text-decoration: none;
+	display: block;
+	color: #f2f2f2;
+	
+}
+
+.Menu ul li a:hover{
+	background-color:blue;
+	
+	}
+.Menu ul li ul li {
+	display: none;
+}
+
+.Menu ul li:hover ul li {
+	display: block;
+}
+.search-form{
 	float: right;
 	margin-right: 100px;
+	width: 20%;
 }
-.search-form button:hover{
-	color: #fff;
+
+.form-control{
+	width: 500px;
+	float: right;
+	border: 2px solid yellow;
 }
+#welcome {
+	display: block;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 70px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.highlight{
+	color: #eec408;
+	text-decoration: 2px solid #eec408;
+
+}
+.skills{
+	background: url(images/skills-header-no-text.jpg) no-repeat 0 -10px;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+
+.history{
+	background: url(images/historyimage.jpg) no-repeat 0 -10px;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+
+.education{
+	background: url(images/educationphoto.jpeg) no-repeat 0 -10px;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+
+.achievements{
+	background: url(images/achievementsimage.jpeg) no-repeat 0 -10px;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+.references{
+	background: url(images/referenceimage.png) no-repeat 0 -10px;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+
+.hobbies{
+	background: url(images/hobbies.jpg) no-repeat 0 -10px;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+
+.address{
+	background: url(images/addressimage1.jpg) no-repeat 0 -10px;
+	background-size: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width: 100%;
+	height: 300px;
+}
+
+.skillsclass{
+	background: #ffffff;
+	border-radius: 10px;
+
+}
+
 
 
 #row{
@@ -89,14 +206,6 @@ font-size: 20px;
 
 }
 
-.image img{
-	border-radius: 100%;
-	
-}
-
-.image img:hover {
-	box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
-  }
 
 .timeline{
 	background: #429dcf;
