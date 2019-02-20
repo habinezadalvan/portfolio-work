@@ -272,6 +272,16 @@ body{
 	font-weight: 500;
 }
 
+.contacts{
+	float: left;
+	padding-right: 20px;
+}
+.contacts img:hover{
+ 
+ border: 1px solid black;
+ 
+ opacity: .1;
+}
 /*Home window*/
 
 .homepreview img{
