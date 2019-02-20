@@ -62,8 +62,20 @@ body{
 	font-weight: 900;
 
 }
-
-
+/*
+.Menu ul li:nth-child(1){
+	background: blue;
+	height: 60px;
+}
+.Menu ul li:hover:not(.current){
+	background: blue;
+	height: 60px;
+}
+*/
+.current{
+	color: blue;
+	height: 60px;
+}
 .Menu ul li a {
 	
 	text-decoration: none;
@@ -104,12 +116,12 @@ body{
 
 
 .highlight{
-	color: #eec408;
+	color: #facc01;
 	text-decoration: 2px solid #eec408;
 
 }
 .skills{
-	background: url(images/skills-header-no-text.jpg) no-repeat 0 -10px;
+	background: url(images/skills-header-no-text.jpg) no-repeat 0 -20px;
 	background-size: 100%;
 	display: block;
 	margin: 0px;
@@ -129,7 +141,7 @@ body{
 	width: 100%;
 	height: 300px;
 }
-
+/*Education*/
 .education{
 	background: url(images/educationphoto.jpeg) no-repeat 0 -10px;
 	background-size: 100%;
@@ -141,6 +153,33 @@ body{
 	height: 300px;
 }
 
+.educationsection{
+	background: #facc01;
+	background-size: 100%;
+	color: black;
+	height: 900px;
+	padding-top: 20px;
+}
+
+.educationpart1{
+	color:black;
+	font-weight: 900;
+}
+
+.educationpart{
+	background: black;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+	opacity: .5;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+
+/*end of education*/
 .achievements{
 	background: url(images/achievementsimage.jpeg) no-repeat 0 -10px;
 	background-size: 100%;
@@ -183,14 +222,93 @@ body{
 	width: 100%;
 	height: 300px;
 }
+/* skills window*/
 
 .skillsclass{
-	background: #ffffff;
+	background:blue;
 	border-radius: 10px;
+	padding: 20px;
+	margin-top: 30px;
+	opacity: .5;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+
+.blog{
+	background: bl:green
+	height: 500px;:green
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.blog h2{
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+.bg{
+	color: black;
+	padding: 0px;
+}
+
+.skills3{
 
 }
 
 
+/*Home window*/
+
+.homepreview img{
+	width: 200px;
+	height: 140px;
+}
+
+.preview{
+	width: 640px;
+	height: 360px;
+	
+}
+.thumb{
+	width: 400px;
+	height: 200px;
+}
+.normal{
+	border: 3px solid #000000;
+}
+.selected{
+	border: 3px solid #ff0000;
+}
+
+.travel img{
+	width: 275px;
+	height: 183px;
+}
+
+.values{
+	background: #fdfafa;
+	opacity: .5;
+	height: 400px;
+	margin-top: 20px;
+	border-bottom: 4px solid rgb(255, 166, 0);
+	
+}
+.values ul{
+	list-style: none;
+	color:black;
+	font-size: 30px;
+	font-family: sans-serif;
+	padding: 40px;
+}
+
+.values h2{
+	margin-left: 200px;
+	font-size: 40px;
+}
+/*end of home window*/
 
 #row{
 	padding-top: 300px;
@@ -198,10 +316,18 @@ body{
 	background: #142b47;
 }
 
-.activities{
+.activities {
 	background: #ffd740;
 	color: black;
-	height: 600px;
+	height: 550px;
+	padding-top: 20px;
+
+}
+
+.histotysection{
+	background: #ffd740;
+	color: black;
+	height: 800px;
 	padding-top: 20px;
 
 }
@@ -214,13 +340,7 @@ body{
 
 }
 
-.timeline .row{
-	padding-top: 10px;
-}
 
-.timeline .row h3{
-	text-decoration: underline;
-}
 
 .social-media{
 	background: #fdfafa;
@@ -231,38 +351,6 @@ body{
 .travel-memory{
 	background: #ffd740;
 	height: 400px;
-}
-
-.blog{
-	background: #f5f5f5;
-	height: 600px;
-}
-
-.bg0{
-	background: #ffffff;
-	color: black;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.bg1{
-	background: #ffffff;
-	color: black;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.bg2{
-	background: #ffffff;
-	color: black;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 .acheivement #row{
