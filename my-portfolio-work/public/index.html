@@ -65,41 +65,43 @@
 
 		
 	</section>
-	<section class="activities">
-		<div class="container">
-			<div class="col-sm-5">
-				<h2> Habineza leon christian</h2>
-				<div class="image">
-						<img src="css/images/image1.jpg" alt="our client" width="300" height="300">
-				</div>
-				<p>A motivated programmer and a leader with a zeal and heart of making change. Seeking to apply expertise and Programming
-					to take on a challenging new role with a collaborative and growing team.</p>
-			</div>
 
-			<div class="col-sm-7 col-sm-push-1 values">
-				<h2>Values</h2>
-				<ul class="col-sm-6">
-					<li>Peace</li>
-					<li>Love</li>
-					<li>Family</li>
-					<li>Humility</li>
-				</ul>
-				<ul class="col-sm-6">
-					<li>Compassion</li>
-					<li>integrity</li>
-					<li>Honesty</li>
-					<li>hardwork</li>
-				</ul>
+	<div class="boxes">
+		<div class="homebox" id="box1">
 				
+			<h2> Habineza leon christian</h2>
+			<div class="image">
+				<img src="css/images/image1.jpg" alt="our client" width="200" height="200">
 			</div>
+			<p>A motivated programmer and a leader with a zeal and heart of making change. Seeking to apply expertise and Programming
+			to take on a challenging new role with a collaborative and growing team.</p>
+
+				
 		</div>
-		
-	</section>
-	<section class="timeline">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-7">
-					<h2><strong>Basic info</strong></h2>
+
+		<div class="homebox" id="box2">
+			<h2>Values</h2>
+						<div>
+							<ul class="">
+								<li>Peace</li>
+								<li>Love</li>
+								<li>Family</li>
+								<li>Humility</li>
+							</ul>
+						</div>
+						<div>
+							<ul class="">
+								<li>Compassion</li>
+								<li>integrity</li>
+								<li>Honesty</li>
+								<li>hardwork</li>
+							</ul>
+							
+						</div>
+		</div>
+
+		<div class="homebox" id="box3">
+			<h2><strong>Basic info</strong></h2>
 					<div>
 						<h3><strong>Born</strong></h3> <br/>
 						<p>1993</p>
@@ -116,78 +118,50 @@
 						<h3>Gender</h3>
 						<p>Male</p>
 					</div>
-				</div>
-				<div class="col-sm-5">
-						<h2>My favorite place</h2>
-						<p> My beautiful country Rwanda</p>	
-						<img src="css/images/ibirunga.gif" alt="Rwanda" width="490px" height="280px">
+		</div>
+		<div class="homebox" id="box4">
+			<h2>My favorite place (<small>My beautiful country Rwanda</small>)</h2>
+			
+			<img src="css/images/ibirunga.gif" alt="Rwanda" width="490px" height="280px">
+		
+		</div>
+		<div class="homebox" id="box5">
+			<h2>Travel memories</h2>
+			<div class="col-sm-4 travel imgbox">
+				<a href="#"><img src="css/images/hotel.jpg" alt="ubwato photo" ></a>
+			</div>
+			<div class="col-sm-4 travel imgbox">
+				<a href="#"><img src="css/images/ubwato.jpg" alt="kivu photo"></a>
+			</div>
+			<div class="col-sm-4 travel imgbox">
+				<a href="#"><img src="css/images/akarwa.jpg" alt="nkomba island" ></a>
+			</div>
+		</div>
+		<!-- <div class="homebox" id="box6">6</div> -->
+	</div>
+
+	
+<footer>
+
+	<div class="footer">
+			<div class="footerbox">
+				<h3>Habineza Leon Christian</h3>
+				<small>Web developer</small>
 					
-				</div>
 			</div>
-		</div>
-	</section>
-	
-	<section class="travel-memory">
-		<div class="container">
-			<div class="imgbox">
-				<h2>Travel memories</h2>
-				<div class="col-sm-4 travel">
-					<a href="#"><img src="css/images/hotel.jpg" alt="ubwato photo" ></a>
-				</div>
-				<div class="col-sm-4 travel">
-					<a href="#"><img src="css/images/ubwato.jpg" alt="kivu photo"></a>
-				</div>
-				<div class="col-sm-4 travel">
-					<a href="#"><img src="css/images/akarwa.jpg" alt="nkomba island" ></a>
-				</div>
-			</div>
-		</div>
-	</section>
-</h3>
-	
-<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<h3>Habineza Leon Christian</h3>
-					<small>Web developer</small>
+			<div class="footerbox">
+				<p class="text-bottom">copyright &copy; 2019 habineza leon christian (the developer)</p>
+		
+				<form>
+					<label for="email">subscribe</label>
+					<input type="email" name="subscribe" title="your amail" value="your email">
+				</form>
+				<p>kigali-Rwanda</p>
+				<p><address>P.O.Box:.../ Street No : KG 27 ST</address></p>
 					
-				</div>
-				<div class="col-sm-4">
-					<p class="text-bottom">copyright &copy; 2019 habineza leon christian (the developer)</p>
-				</div>
-				        <form>
-							<label for="email">subscribe</label>
-							<input type="email" name="subscribe" title="your amail" value="your email">
-						</form>
-					</div>
-					<div class="contact">
-						<p>kigali-Rwanda</p>
-						<p><address>P.O.Box:.../ Street No</address></p>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-<script>
-	var lastId = 1;
-	document.getElementById(lastId).className ="thumb selected";
-
-	function preview (img){
-		document.getElementById(lastId).className = "thumb normal";
-		img.className ="thumb selected";
-		document.getElementById(0).scr = img.scr;
-		lastId = img.id;
-	};
-
-</script>
-
-
-	
+			 </div>
+	</div>
+</footer>
      <!-- <div style="margin-top: 500px"></div>-->
 </body>
 </html>
